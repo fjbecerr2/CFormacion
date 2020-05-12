@@ -12,12 +12,22 @@ int main(void) {
   return 0;
 }
 
+ /**
+    Autor: Fco. J. Becerra
+    Date: 12/05/2020
+    Version: 1.0
+    Update-Date:
+    Description:
+      Calcular la paga neta de un trabajador
+    Param:
+      horas
+      tarifa
+      impuestos
+    Return:
+      paga = (horas * tarifa) - impuestos
+  **/
 void fEj1_CalcularPaga(const int phorasTrabajadas){
 
-  /*String sMethodName = new String (Thread.currentThread().getStackTrace()[1].getMethodName());
-      String sClassName  = new String (Thread.currentThread().getStackTrace()[1].getClassName());
-     
-*/
     fDevuelveNombreMetodoEjecutandose(__FILE__, __FUNCTION__);
     
     const int tarifaHora = 20;
