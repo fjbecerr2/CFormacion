@@ -5,7 +5,8 @@
 void fEjercicio1_CalcularPaga(const int phorasTrabajadas)
 {
 
-  fDevuelveNombreMetodoEjecutandose(__FILE__, __FUNCTION__);
+  fDevuelveNombreMetodoEjecutandoseColor(__FILE__, __FUNCTION__);
+
   
   const int tarifaHora = 20;
   const int impuestosPorcentaje = 20;
