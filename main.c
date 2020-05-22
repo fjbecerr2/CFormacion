@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#include "Ejercicio1.h"
+#include "Ejercicio1/Ejercicio1.h"
+#include "lib/mensajes.h"
 
 int main(void) {
   printf("EJERCICIOS DE C \n");

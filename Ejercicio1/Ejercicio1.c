@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include "Ejercicio1.h"
-
-void fDevuelveNombreMetodoEjecutandose(const char* pFile, const char* pMetodo )
-{
-  printf("\nEjecutando: Clase-> %s\n", pFile);
-  printf("            Metodo-> %s\n", pMetodo);
-}
+#include "../lib/mensajes.h"
 
 void fEjercicio1_CalcularPaga(const int phorasTrabajadas)
 {
