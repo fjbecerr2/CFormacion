@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "mensajes.h"
 
+//VERSION 1.0
+
 const char BLANCO[] = "\033[37m";
 const char VERDE[] ="\033[32m";
 
