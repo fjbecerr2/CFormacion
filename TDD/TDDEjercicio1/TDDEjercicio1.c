@@ -6,7 +6,7 @@
 #include "../../lib/mensajes.h"
 
 //VERSION 1.0
-/*
+
 void fTDDComprobarPaga()
 {
 
@@ -22,4 +22,4 @@ else{
    fDevolverMensajeTest(0);
   }
 
-}*/
+}

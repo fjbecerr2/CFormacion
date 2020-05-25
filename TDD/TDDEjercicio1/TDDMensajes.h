@@ -2,7 +2,7 @@
 #define _TDDMENSAJES_H
 
 
-//void fDevolverMensajeTest(const int pResultado);
+void fDevolverMensajeTest(const int pResultado);
 
 
 #endif

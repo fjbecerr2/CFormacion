@@ -3,7 +3,7 @@
 
 
 
-//void fTDDComprobarPaga();
+void fTDDComprobarPaga();
 
 
 

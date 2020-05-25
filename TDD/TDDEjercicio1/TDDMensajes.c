@@ -2,7 +2,7 @@
 #include "TDDMensajes.h"
 
 //VERSION 1.0
-/*
+
 void fDevolverMensajeTest(const int pResultado)
 {
 
@@ -19,4 +19,4 @@ const char ROJO[] ="\033[31m";
     printf("%s\n", BLANCO);
   }
 
-}*/
+}

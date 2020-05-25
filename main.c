@@ -14,7 +14,7 @@ int main(void) {
   //fEjercicio1_CalcularPaga2(fIntroducirHorasTrabajadas(),20, 20);  
 
   //TDD
- // fTDDComprobarPaga();
+  fTDDComprobarPaga();
 
   return 0;
 }

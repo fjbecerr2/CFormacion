@@ -5,7 +5,7 @@
 //VERSION 2.0 
 
 const int VERTRAZA = 0; //0 NO VER, 1 VER
-const int VERMENSAJES = 0; 
+const int VERMENSAJES = 1; //PARA CORRER LOS TEST 1
 
 int fEjercicio1_CalcularPaga(const int phorasTrabajadas)
 {
