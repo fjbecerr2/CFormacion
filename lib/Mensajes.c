@@ -11,7 +11,7 @@ void fDevuelveNombreMetodoEjecutandose(const char* pFile, const char* pMetodo )
 void fDevuelveNombreMetodoEjecutandoseColor(
 const char* pFile, const char* pMetodo )
 {
-  //printf("\n\%s Ejecutando: Clase-> %s\n", VERDE, pFile);
+  printf("\n %s Ejecutando: Clase-> %s\n", VERDE, pFile);
   printf("            Metodo-> %s\n", pMetodo);
- // printf("%s", BLANCO);
+  printf("%s", BLANCO);
 }

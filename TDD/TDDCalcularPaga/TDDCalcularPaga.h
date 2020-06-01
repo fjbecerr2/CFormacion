@@ -1,9 +1,9 @@
-#ifndef _TDDEJERCICIO1_H
-#define _TDDEJERCICIO1_H
+#ifndef _TDDCALCULARPAGA_H
+#define _TDDCALCULARPAGA_H
 
 
 
-void fTDDComprobarPaga();
+void fTDDCalcularPaga();
 
 
 

@@ -4,8 +4,8 @@
 #define TARIFAHORA 20
 #define IMPUESTOPORCENTAJE 20
 
-/*const char BLANCO[] = "\033[37m";
-const char VERDE[] = "\033[32m";
-const char ROJO[] = "\033[31m";*/
+#define BLANCO "\033[37m"
+#define VERDE "\033[32m"
+#define ROJO "\033[31m"
   
 #endif

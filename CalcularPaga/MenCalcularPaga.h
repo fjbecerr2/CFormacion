@@ -3,8 +3,6 @@
 
 #define VERMENSAJES 0   //PARA CORRER LOS TEST 1
 
-//MENSAJES
-
 void fMensajeHorasTrabajadas(const int phorasTrabajadas);
 void fMensajeTarifaHoras(const int ptarifaHoras);
 void fMensajeImpuestos(const int pporcentajeImpuestos);

@@ -10,7 +10,7 @@ int fCalcularPaga(const int phorasTrabajadas)
 
   if(VERTRAZA==1)
   {
-    fDevuelveNombreMetodoEjecutandoseColor(__FILE__, __FUNCTION__);
+    fDevuelveNombreMetodoEjecutandose(__FILE__, __FUNCTION__);
   }
   
   int paga = 0;

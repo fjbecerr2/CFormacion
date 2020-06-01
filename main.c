@@ -10,11 +10,11 @@ int main(void) {
   printf("EJERCICIOS DE C \n");
   printf("--------------- \n");
   fCalcularPaga(100); //[OK]
-  //fCalcularPaga2(100,20, 20); //[OK]
-  //fCalcularPaga2(fIntroducirHorasTrabajadas(),20, 20);  
+  fCalcularPaga2(100,20, 20); //[OK]
+  fCalcularPaga2(fIntroducirHorasTrabajadas(),20, 20);  
 
   //TDD
-  //fTDDComprobarPaga();
+  fTDDCalcularPaga();
 
   return 0;
 }
