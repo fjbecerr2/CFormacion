@@ -1,10 +1,6 @@
 #include <stdio.h>
-#include "mensajes.h"
-
-//VERSION 1.0
-
-const char BLANCO[] = "\033[37m";
-const char VERDE[] ="\033[32m";
+#include "Mensajes.h"
+#include "Config.h"
 
 void fDevuelveNombreMetodoEjecutandose(const char* pFile, const char* pMetodo )
 {
@@ -15,7 +11,7 @@ void fDevuelveNombreMetodoEjecutandose(const char* pFile, const char* pMetodo )
 void fDevuelveNombreMetodoEjecutandoseColor(
 const char* pFile, const char* pMetodo )
 {
-  printf("\n\%s Ejecutando: Clase-> %s\n", VERDE, pFile);
+  //printf("\n\%s Ejecutando: Clase-> %s\n", VERDE, pFile);
   printf("            Metodo-> %s\n", pMetodo);
-  printf("%s", BLANCO);
+ // printf("%s", BLANCO);
 }
