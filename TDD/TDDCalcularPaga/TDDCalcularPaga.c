@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "TDDCalcularPaga.h"
 #include "TDDMensajes.h"
-#include "../../CalcularPaga/CalcularPaga.h"
+#include "../../src/CalcularPaga/CalcularPaga.h"
 #include "../../lib/Mensajes.h"
 
 //VERSION 1.0

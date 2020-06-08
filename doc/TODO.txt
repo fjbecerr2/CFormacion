@@ -1,0 +1,10 @@
+Tdd de Usuarios
+dato nif Usuarios
+dato telefono Usuarios
+strlen(nombre2) Comprobar datos introducidos
+campos paga para usuario
+Struc de Usuarios
+Matriz de struct Usuarios
+Operaciones sobre la Matriz
+Cambiar un usuarios
+Nueva manera de introducir usuario  gets()

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "CalcularPaga.h"
-#include "../lib/Mensajes.h"
-#include "../lib/Config.h"
+#include "../../lib/Mensajes.h"
+#include "../../lib/Config.h"
 #include "MenCalcularPaga.h"
 
 
@@ -41,14 +41,12 @@ int fCalcularPaga(const int phorasTrabajadas)
     fMensajeTarifaHoras(TARIFAHORA);
     fMensajeImpuestos(IMPUESTOPORCENTAJE);
     
-
     paga = (phorasTrabajadas * ptarifaHora);
     fMensajePaga(paga);
 
     paga = paga - (paga * 20) / 100;
     fMensajePaga(paga);
     return paga;
-
   }
 
   int fIntroducirHorasTrabajadas(){
@@ -62,7 +60,6 @@ int fCalcularPaga(const int phorasTrabajadas)
     scanf("%d", &iHorasTrabajadas);
 
     return iHorasTrabajadas;
-
   }
 
 
