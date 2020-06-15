@@ -1,3 +1,9 @@
+inteface para la libreria
+reservas de memoria
+
+
+
+
 Tdd de Usuarios
 dato nif Usuarios
 dato telefono Usuarios
