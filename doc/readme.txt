@@ -31,3 +31,5 @@ doc/ (doxygen or any kind of documentation)
 
 src/
 headers/
+
+https://www.learn-c.org/

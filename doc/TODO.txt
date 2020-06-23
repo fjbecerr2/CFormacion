@@ -1,16 +1,22 @@
-inteface para la libreria
+
+[] Crear tipo Formato
+[] Operaciones con Stock
+[] Generador de código libro
+[] Test Operaciones Libro
+[] Para un libro nuevo Stock por defecto = 1
+[] Excepciones ¿?
+[] Cambiar las cadenas a punteros
+[] Modificar los datos
+
+
+[OK] Añadir Stock
+[OK] Interface entrada libreria
+
+
 reservas de memoria
 
 
 
 
-Tdd de Usuarios
-dato nif Usuarios
-dato telefono Usuarios
-strlen(nombre2) Comprobar datos introducidos
-campos paga para usuario
-Struc de Usuarios
-Matriz de struct Usuarios
-Operaciones sobre la Matriz
-Cambiar un usuarios
-Nueva manera de introducir usuario  gets()
+
+Nueva manera de introducir string  gets()

@@ -8,6 +8,7 @@
 #include "src/Usuarios/Usuarios.h"
 
 #include "lib/books.h"
+#include "lib/itfBooks.h"
 
 int main(void) {
   printf("EJERCICIOS DE C \n");
@@ -43,6 +44,14 @@ int main(void) {
   printf("Páginas : %d\n", getPaginas());
   printf("Editorial: %s\n", getFormato());
   printf("Precio : %.2f\n", getPrecio());
+
+  IntroducirLibroEnBlanco();
+  LeerLibro();
+
+  IntroducirTituloLibro();
+  LeerTituloLibro();
+  IntroducirLibro();
+  LeerLibro();
 
 
   //TDD
