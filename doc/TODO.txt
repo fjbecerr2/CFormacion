@@ -7,6 +7,8 @@
 [] Cambiar las cadenas a punteros
 [] Modificar los datos
 [] Crear personas
+[] Generado de formatos
+[] Generador de generos
 [] Comprobar generado DNI
 [] Automatiza mensa introduzca (Concatenar)
 https://www.learn-c.org/en/Strings
