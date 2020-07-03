@@ -1,14 +1,20 @@
 
 [] Crear tipo Formato
-[] Operaciones con Stock
 [] Generador de código libro
 [] Test Operaciones Libro
 [] Para un libro nuevo Stock por defecto = 1
 [] Excepciones ¿?
 [] Cambiar las cadenas a punteros
 [] Modificar los datos
+[] Crear personas
+[] Comprobar generado DNI
+[] Automatiza mensa introduzca (Concatenar)
+https://www.learn-c.org/en/Strings
 
 
+
+[OK] Generador de codigos
+[OK] Stock S/N y operaciones
 [OK] Añadir Stock
 [OK] Interface entrada libreria
 

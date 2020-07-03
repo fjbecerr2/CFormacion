@@ -31,25 +31,26 @@ int main(void) {
 
   //Books
   //books objBooks;
-  setTituloLibro("El ocho");
+  /*setTituloLibro("El ocho");
   setAutor("Caterine Neville");
   setEditorial("Anagrama");
   setPaginas(300);
   setFormato("Tapa Blanda");
-  setPrecio(18.50);
+  setPrecio(18.50);*/
 
-  printf("Titulo: %s\n", getTituloLibro());
+  /*printf("Titulo: %s\n", getTituloLibro());
   printf("Autor: %s\n", getAutor());
   printf("Editorial: %s\n", getEditorial());
   printf("Páginas : %d\n", getPaginas());
   printf("Editorial: %s\n", getFormato());
-  printf("Precio : %.2f\n", getPrecio());
+  printf("Precio : %.2f\n", getPrecio());*/
 
-  IntroducirLibroEnBlanco();
-  LeerLibro();
+  /*IntroducirLibroEnBlanco();
+  LeerLibro();*/
 
-  IntroducirTituloLibro();
-  LeerTituloLibro();
+  //IntroducirTituloLibro();
+  //LeerTituloLibro();
+  
   IntroducirLibro();
   LeerLibro();
 

@@ -4,6 +4,10 @@
 
 books objBooks;
 
+void setCodigoLibro(const unsigned int pCodigo){
+  objBooks.CodigoLibro =pCodigo;
+}
+
 void setTituloLibro(const char *pTituloLibro){
   strcpy(objBooks.TituloLibro, pTituloLibro);
 };
@@ -16,7 +20,7 @@ void setEditorial(const char *pEditorial){
   strcpy(objBooks.Editorial, pEditorial);
 };
 
-void setPaginas(const int pPaginas){
+void setPaginas(const unsigned short pPaginas){
   objBooks.Paginas = pPaginas;
 
 } ;
@@ -29,8 +33,17 @@ void setPrecio(const float pPrecio){
   objBooks.Precio = pPrecio;
 };
 
+void setEnStock(const unsigned short pEnStock){
+  objBooks.EnStock = pEnStock;
+
+}
+
 void setStock(const int pStock){
   objBooks.Stock =pStock;
+}
+
+unsigned int CodigoLibro(){
+  return objBooks.CodigoLibro;
 }
 
 char* getTituloLibro(){
@@ -56,6 +69,10 @@ char* getFormato(){
 float getPrecio(){
   return objBooks.Precio;
 };
+
+unsigned short getEnStock(){
+  return objBooks.EnStock;
+}
 
 int getStock(){
   return objBooks.Stock;

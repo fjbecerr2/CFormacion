@@ -2,11 +2,11 @@
 #define _USUARIOS_H
 
 #define NUMEROUSUARIOS 6
-#define LONGCADENA 100+1
+#define LONGCADENAUSUARIO 100+1
 
-char NombreUsuario[LONGCADENA];
-char Apellido1Usuario[LONGCADENA];
-char Apellido2Usuario[LONGCADENA];
+char NombreUsuario[LONGCADENAUSUARIO];
+char Apellido1Usuario[LONGCADENAUSUARIO];
+char Apellido2Usuario[LONGCADENAUSUARIO];
 
 void getCadena();
 void getNombreUsuario();

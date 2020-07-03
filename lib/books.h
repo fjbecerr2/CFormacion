@@ -1,26 +1,31 @@
 #ifndef _BOOKS_H
 #define _BOOKS_H
 
-#define longCadena 50
+#define LONGCADENALIBRO 50
 
 typedef struct books{
-  char TituloLibro[longCadena];
-  char Autor[longCadena];
-  char Editorial[longCadena];
-  int Paginas;
-  char Formato[longCadena];
+  unsigned int CodigoLibro;
+  char TituloLibro[LONGCADENALIBRO];
+  char Autor[LONGCADENALIBRO];
+  char Editorial[LONGCADENALIBRO];
+  unsigned short Paginas;
+  char Formato[LONGCADENALIBRO];
   float Precio;
+  unsigned short EnStock;
   int Stock;
 } books;
 
+void setCodigoLibro(const unsigned int);
 void setTituloLibro(const char *);
 void setAutor(const char *);
 void setEditorial(const char *);
-void setPaginas(const int);
+void setPaginas(const unsigned short);
 void setFormato(const char *);
 void setPrecio(const float);
+void setEnStock(const unsigned short);
 void setStock(const int);
 
+unsigned int CodigoLibro();
 char* getTituloLibro();
 char* getAutor();
 char* getEditorial();
