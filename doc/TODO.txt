@@ -12,7 +12,7 @@
 [] Comprobar generado DNI
 [] Automatiza mensa introduzca (Concatenar)
 https://www.learn-c.org/en/Strings
-
+..
 
 
 [OK] Generador de codigos
